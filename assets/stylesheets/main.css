@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ddd;
+  padding: 0 1em;
+}
+
+header {
+  height: 4.5em;
+  float: left;
+}
+
+img.logo {
+  margin: 0 auto;
+  height: 100%;
+}
+
+header > div.logo {
+  background-color: white;
+  padding: 1em;
+}
+
+header > div {
+  float: left;
+  height: 100%;
+  padding: 0 1.5em;
+  vertical-align: top;
+}
+
+header > div:not(.logo) {
+  border-right: 1px solid #ccc;
+  line-height: 1em;
+  padding-top: 2.5em;
+}
+
+.main-content {
+  clear: left;
+  margin-right: 25em;
+  background-color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 5em 2.5em 1em 0;
+}
+
+.side {
+  float: right;
+  width: 25em;
+}
+
+.side > div {
+  background-color: #eee;
+}
+
+.side > .side-container {
+  margin: 2em 0;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.side > .search {
+  height: 6em;
+  margin: 3em 0.5em 3em 1.5em;
+}
+
+.side > .newsletter {
+  height: 10em;
+}
+
+.side > .books {
+  height: 15em;
+}
+
+.side > .hosted {
+  height: 8em;
+}
+
+.ads {
+  margin: 3em 0;
+  margin-right: 25em;
+}
+
+.ad {
+  display: inline-block;
+  width: 30%;
+  margin: 0 1.4%;
+  height: 10em;
+  background-color: #ccc;
+}
+
+.toc {
+  float: left;
+  width: 11em;
+  margin: 0 1.5em 3.5em 1.5em;
+}
+
+.main-content:after {
+  content: "";
+  display: block;
+  clear: left;
+}
+
+.toc > .sub {
+  display: inline-block;
+  height: 15em;
+  width: 100%;
+  background-color: #ddd;
+  margin-bottom: 3em;
+}
+
+.articles {
+  height: 100em;
+  background-color: #ccc;
+  margin-left: 14em;
+}
