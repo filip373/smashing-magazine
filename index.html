@@ -31,16 +31,16 @@
     </div>
   </div>
   <div class="side-container books">
-    <div class="book">
+    <div class="book img-side">
       <img src="assets/images/sidebar-sb5.png">
       <p>It's finally here. Smashing Book #5, our new book on real-life responsive design. With front-end techniques and patterns from actual projects, it's a playbook to master all the tricky facets and hurdles of responsive design. Get the book. Free shipping.</p>
     </div>
-    <div class="book">
+    <div class="book img-side">
       <img src="assets/images/hardboiled-web-design-left.png">
       <p>With responsive design, creating Photoshop mock-ups is just inefficient. In the new anniversary edition of Hardboiled Web Design, Andy Clarke shows how to improve workflow, craft better front-end, establish style guides and reduce wasted time. Get the book.</p>
     </div>
   </div>
-  <div class="side-container hosted">
+  <div class="side-container hosted img-side">
     <img src="assets/images/mediatemple.png">
     <p>We are proudly hosted on Media Temple Dedicated Servers. Performance matters.</p>
   </div>
@@ -83,49 +83,55 @@
     </section>
   </aside>
   <section class="articles">
-    <article>
-      <header>
+    <article class="article">
+      <header class="article-header">
         <h1>Web Development Reading List #141: jQuery 3, Chillout.js, And How Technology Shapes Society</h1>
-        <h3>By Anselm Hannemann</h3>
-        <h4 class="date">June 10th, 2016</h4>
+        <h3 class="by-header">By <span class="author">Anselm Hannemann</span></h3>
+        <!-- <h4 class="date">June 10th, 2016</h4>
         <h4 class="topic">Web Development Reading List</h4>
-        <h4 class="comments">0 Comments</h4>
+        <h4 class="comments">0 Comments</h4> -->
       </header>
       <p>There are weeks where I don't find articles for the "Going Beyond" section of the Web Development Reading List at all. And then there are weeks like this one, where two brilliant pieces show up that reveal so much about how we live together with new technology and how this shapes our society.</p>
       <img src="assets/images/the-self-fulfilling-prohesy-opt.png" alt="The self fulfilling prophesy">
       <p>Along with a bunch of good tech articles, a great way to leave you for the next two weeks. Please note that I'll be away on vacation next week, so there won't be a summary next Friday.</p>
-      <button>Read more...</button>
+      <button class="more-button">Read more...</button>
     </article>
-    <article>
-      <header>
+    <article class="article">
+      <header class="article-header">
         <h1>Find A Friend, Boost Your Creativity, And Make Your Digital Dream Come True</h1>
-        <h3>By Igor Izhik</h3>
-        <h4 class="date">June 9th, 2016</h4>
+        <h3 class="by-header">By <span class="author">Igor Izhik</span></h3>
+        <!-- <h4 class="date">June 9th, 2016</h4>
         <h4 class="topic">Creativity</h4>
-        <h4 class="comments">0 Comments</h4>
+        <h4 class="comments">0 Comments</h4> -->
       </header>
       <p>Are you passionate about something? Do you have a secret project? Not something that will change the world (though who knows?), but will definitely change you? Do you have a friend who complements your skills? Has anyone recently asked you for help with their project? Do you just have a digital dream, or is there also a plan to make it come true?</p>
       <img src="assets/images/01-leave-your-comfort-zone-preview-opt.png" alt="Leave your comfort zone">
       <p>Every professional has something in common. It's called the comfort zone. The first sign you're in it is when you see no challenge on the horizon. You know pretty much everything you need to perform well, and if anything unfamiliar comes your way it can be solved fairly quickly. It can take a while to realize you've stopped moving, and working on freelance projects seems like the only way to keep your brain busy.</p>
-      <button>Read more...</button>
+      <button class="more-button">Read more...</button>
     </article>
   </section>
 </div>
 <aside class="ads">
   <div class="ad">
-    <img src="assets/images/footer-sb5.png">
-    <h5>Smashing Book 5</h5>
-    <p>With smart front-end techniques from real-life responsive projects.</p>
+    <img class="ad-img" src="assets/images/footer-sb5.png">
+    <div class="ad-content">
+      <h5 class="ad-title">Smashing Book 5</h5>
+      <p class="ad-text">With smart front-end techniques from real-life responsive projects.</p>
+    </div>
   </div>
   <div class="ad">
-    <img src="assets/images/smashing-library-footer-new-opt.png">
-    <h5>The Smashing Library</h5>
-    <p>Grab all published and upcoming Smashing eBooks, in one swoop.</p>
+    <img class="ad-img" src="assets/images/smashing-library-footer-new-opt.png">
+    <div class="ad-content">
+      <h5 class="ad-title">The Smashing Library</h5>
+      <p class="ad-text">Grab all published and upcoming Smashing eBooks, in one swoop.</p>
+    </div>
   </div>
   <div class="ad">
-    <img src="assets/images/susan-weinschenk.jpg">
-    <h5>Smashing Workshops</h5>
-    <p>Join our hands-on full-day workshops, run by experts of the industry. Good stuff.</p>
+    <img class="ad-img" src="assets/images/susan-weinschenk.jpg">
+    <div class="ad-content">
+      <h5 class="ad-title">Smashing Workshops</h5>
+      <p class="ad-text">Join our hands-on full-day workshops, run by experts of the industry. Good stuff.</p>
+    </div>
   </div>
 </aside>
 </body>
