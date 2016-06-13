@@ -50,7 +50,7 @@ header.main > div:not(.logo) {
 }
 
 .side > div {
-  font: 1em sans-serif;
+  font-size: 1em;
 }
 
 .side > .side-container {
@@ -88,17 +88,18 @@ header.main > div:not(.logo) {
   width: 30%;
   margin: 0 1.4%;
   vertical-align: top;
+  font-size: .75em;
 }
 
 .ad-img {
   position: absolute;
-  width: 4em;
-  height: 4em;
+  width: 5em;
+  height: 5em;
   border-radius: 0.2em;
 }
 
 .ad-content {
-  margin-left: 4.5em;
+  margin-left: 5.5em;
 }
 
 .ad-title {
@@ -112,6 +113,7 @@ header.main > div:not(.logo) {
 }
 
 .toc {
+  text-transform: uppercase;
   float: left;
   width: 11em;
   margin: 0 1.5em 3.5em 1.5em;
@@ -127,6 +129,10 @@ header.main > div:not(.logo) {
   display: inline-block;
   width: 100%;
   margin-bottom: 2em;
+}
+
+.sub > h3 {
+  letter-spacing: .2em;
 }
 
 .articles {
@@ -227,4 +233,26 @@ header.main > div:not(.logo) {
 
 .article {
   padding-bottom: 2em;
+}
+
+.article p {
+  font: 1.2em 'Goudy Bookletter 1911', serif;
+}
+
+.article-title, .by-header, .side-container h2 {
+  font-family: 'Lobster', cursive;
+}
+
+.article-title {
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.by-title {
+  font-size: 1.4em;
+  font-weight: 400;
+}
+
+body, .more-button {
+  font-family: 'Cabin', sans-serif;
 }
